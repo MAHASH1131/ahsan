@@ -1,0 +1,1331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/* navbar section */
+.container{
+     width: 100%;
+     height: 100vh;
+    background-image: url(./images/slideshow/medium-shot-business-women-high-five.jpeg);
+    background-attachment: fixed;
+}
+.navbar{
+             width: 100%;
+             height: 13vh;
+             background-color: rgb(252, 252, 252);
+             display: flex;
+             justify-content: space-evenly;
+             align-items: center;
+             position: sticky;
+             box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+             top: 0;
+             /* position: fixed; */
+             opacity: 0.9;
+}
+ul li a{
+           margin-left: 20px;
+           margin-right: 20px;
+           text-decoration: none;
+           list-style: none;
+           color: gray;
+           font-size: 1.3rem;
+           transition: 1s;
+}
+ul li a:hover{
+      color: orangered;
+}
+ul{
+     display: flex;
+     text-decoration: none;
+     list-style: none;
+}
+ul li i{
+     margin-left: 20px;
+     font-size: 1.3rem;
+     color: gray;
+     transition: 1s;
+
+}
+ul li i:hover{
+     color: orangered;
+}
+.logo h1{
+    font-size: 2.3rem;
+    color: orangered;
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+.logo span{
+    color: black;
+    transition: 1s;
+
+}
+.logo h1 span:hover{
+    color: orangered;
+
+}
+/* banner section */
+.banner{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+          width: 40%;
+          height: 60vh;
+          /* background-color: chocolate;  */
+          margin-top: 35px; 
+}
+.content h1{
+           font-size: 6rem;
+           color: white;
+           margin-top: 130px;
+           font-family: "Bebas Neue", sans-serif;
+           font-weight: 400;
+           font-style: normal;
+}
+.content p{
+           margin-top: 15px;
+           color: white;
+           font-size: 1.5rem;
+}
+.btn1{
+           padding-left: 35px;
+           padding-right: 35px;
+           padding-top: 20px;
+           padding-bottom: 20px;
+           border-radius: 60px;
+           margin-top: 20px;
+           border: none;
+           outline: none;
+           background-color: black;
+           color: white;
+           font-size: 1rem;
+           font-weight: bolder;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* about section */
+
+.head-section{
+    width: 100%;
+    height: 30vh;
+    /* background-color: blue; */
+}
+.head-section h1{
+       font-size: 3.5rem;
+       text-align: center;
+       padding-top: 130px;
+}
+.about{
+    width: 100%;
+    height: 70vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.a1{
+      width: 20%;
+      height: 20vh;
+      /* background-color: aquamarine; */
+}
+.a1 h4{
+         margin-left:30px;
+         margin-top: 20px;
+         font-size: 1.3rem;
+         color: gray;
+         font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+.a1 h4:hover{
+    color: orangered;
+}
+.a2{
+     width: 40%;
+     height: 60vh;
+     background-image: url(./images/pim-chu-z6NZ76_UTDI-unsplash.jpeg);
+}
+.a3{
+    width: 35%;
+    height: 60vh;
+    /* background-color: rgb(25, 173, 104); */
+}
+.a3 h3{
+         font-size: 2.5rem;
+         margin-left: 35px;
+         font-family: "Roboto", sans-serif;
+         font-weight: 400;
+         font-style: normal
+}
+.a3 p{
+        font-size: 1.4rem;
+        margin-left: 35px;
+        color: gray;
+        margin-top: 25px;
+}
+.a3 h5{
+        font-size: 1rem; 
+        margin-left: 35px;
+         font-weight: bold;
+         color: grey;
+        
+}
+.a3 h5:hover{
+         color: orangered;
+}
+/* shop section */
+.shop-sec{
+     width: 100%;
+     height: 60vh;
+     background-color: blue;
+     display: flex;
+     justify-content: center;
+}
+.s1{
+     width: 50%;
+     height: 60vh;
+     background-image: url(./images/retail-shop-owner-mask-social-distancing-shopping.jpg);
+     
+}
+.s2{
+    width: 50%;
+    height: 60vh;
+    background-color:  #e1e2e2;
+}
+.s2 h2{
+          margin-top: 90px;
+          margin-left: 50px;
+          font-size: 4rem;
+}
+.s2 p{
+        margin-top: 20px;
+        font-size: 1.6rem;
+        margin-left: 50px;
+        color: gray;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+}
+.s2 h6 {
+          margin-top: 20px;
+          color: gray;
+        margin-left: 50px;
+        font-size: 1rem;
+
+}
+.s2 h6:hover {
+   color: orangered;
+}
+ /* feature product */
+ .main-product{
+    width: 100%;
+    height: 20vh;
+    /* background-color: aquamarine; */
+ }
+ .main-product h1{
+     align-items: center;
+     text-align: center;
+     padding-top: 50px;
+     font-size: 3rem;
+     font-family: "Merriweather", serif;
+     font-weight: 300;
+     font-style: normal;
+     font-weight: bolder;
+ }
+ .products{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+ }
+ .product111{
+     width: 50%;
+     height: 60vh;
+     /* background-color: rgb(11, 170, 117); */
+     display: block;
+ }
+ .p1{
+        width: 80%;
+        height:50vh;
+        /* background-color: black; */
+       background-image: url(./images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg);
+       background-position: center;
+      background-size: cover;
+        margin-left: 50px;
+       transition: 1s;
+ }
+ .p1:hover{
+                box-shadow: 0 5px 20px 0  #e1e2e2 inset,
+                 0 3px 40px 0  #e1e2e2,
+                 0 3px 40px 0  #e1e2e2 inset,
+                 0 3px 40px 0  #e1e2e2;
+ }
+ .p12{
+          width: 80%;
+          height: 10vh;
+          /* background-color: rgb(19, 141, 150); */
+        margin-left: 50px;
+
+ }
+ .product112{
+    width: 50%;
+    height: 60vh;
+    /* background-color: rgb(212, 182, 10); */
+    display: block;
+}
+.p2{
+    width: 80%;
+       height:50vh;
+       /* background-color: rgb(223, 53, 53); */
+      background-image: url(./images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg);
+      background-position: center;
+      background-size: cover;
+       margin-left: 50px;
+       transition: 1s;
+}
+.p2:hover{
+    box-shadow: 0 5px 20px 0  #e1e2e2 inset,
+     0 3px 40px 0  #e1e2e2,
+     0 3px 40px 0  #e1e2e2 inset,
+     0 3px 40px 0  #e1e2e2;
+}
+.p13{
+    width: 80%;
+
+         height: 10vh;
+         /* background-color: blueviolet; */
+       margin-left: 50px;
+
+}
+.product113{
+    width: 50%;
+    height: 60vh;
+    /* background-color: rgb(226, 33, 162); */
+    display: block;
+}
+.p3{
+    width: 80%;
+       height:50vh;
+       /* background-color: black; */
+      background-image: url(./images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg);
+    overflow: auto;
+      background-position: center;
+      background-size: cover;
+       margin-left: 50px;
+       transition: 1s;
+}
+.p3:hover{
+    box-shadow: 0 5px 20px 0  #e1e2e2 inset,
+     5px 3px 40px 0  #e1e2e2,
+     5px 3px 40px 0  #e1e2e2 inset,
+     5px 3px 40px 0  #e1e2e2;
+}
+.p14{
+    width: 80%;
+
+         height: 10vh;
+         /* background-color: blueviolet; */
+       margin-left: 50px;
+
+}
+.but2{
+    margin-top: 30px;
+              margin-left: 5px;
+              background-color: white;
+              color: gray;
+              border: none;
+              outline: none;
+              padding-left: 5px;
+              padding-top: 3px;
+              padding-right: 5px;
+              padding-bottom: 3px;
+}
+.but1{
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: white;
+    color: gray;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+}
+.but3{
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: white;
+    color: gray;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+}
+.p1 i {
+     margin-left: 70%;
+     border: none;
+     outline: none;
+     color: gray;
+}
+.p2 i {
+    margin-left: 70%;
+    border: none;
+    outline: none;
+    color: gray;
+}
+.p3 i {
+    margin-left: 70%;
+    border: none;
+    outline: none;
+    color: gray;
+}
+.p1 i:hover{
+     color: red;
+}
+.p2 i:hover{
+    color: red;
+}
+.p3 i:hover{
+  color: red;
+}
+.p12 h4{
+           padding-top: 10px;
+           font-size: 1.8rem;
+           margin-left: 15px;
+           transition: 1s;
+}
+.p12 h4:hover{
+  color: orangered;
+}
+.p12 h6{
+           margin-left: 90%;
+           font-size: 1rem;
+           color: gray;
+}
+.p12 p{
+    color: gray;
+}
+
+.p13 h4{
+    padding-top: 10px;
+    font-size: 1.8rem;
+    margin-left: 15px;
+    transition: 1s;
+}
+.p13 h4:hover{
+color: orangered;
+}
+.p13 h6{
+    margin-left: 90%;
+    font-size: 1rem;
+    color: gray;
+}
+.p13 p{
+color: gray;
+}
+
+.p14 h4{
+    padding-top: 10px;
+    font-size: 1.8rem;
+    margin-left: 15px;
+    transition: 1s;
+}
+.p14 h4:hover{
+color: orangered;
+}
+.p14 h6{
+    margin-left: 90%;
+    font-size: 1rem;
+    color: gray;
+}
+.p14 p{
+color: gray;
+}
+/* footer section */
+.main-footer{
+     width: 100%;
+     height: 40vh;
+     background-color: black;
+     display: flex;
+     justify-content: space-evenly;
+    
+}
+.footer1{
+        width: 20%;
+        height: 40vh;
+        /* background-color: blue; */
+}
+.footer2{
+    width: 20%;
+    height: 40vh;
+    /* background-color: rgb(42, 228, 42); */
+}
+.footer3{
+    width: 20%;
+    height: 40vh;
+    /* background-color: blue; */
+}
+.footer4{
+    width: 20%;
+    height: 40vh;
+    /* background-color: rgb(47, 153, 70); */
+}
+/* now styling on footer */
+.footer1 h1{
+    color: white;
+     margin-top: 40px;
+     margin-left: 20px;
+     font-size: 2.6rem;
+     font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+.footer1 h1 span{
+    color: gray;
+}
+.footer1 span:hover{
+     color: orangered;
+}
+.footer1 p{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 1.2rem;
+     color: grey;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer1 h3{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 2rem;
+    color: white;
+}
+.footer1 h6{
+    margin-top: 20px;
+    margin-left: 40px;
+     color: grey;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+.footer1 h6:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer3 h6{
+    margin-top: 90px;
+    margin-left: 70px;
+    font-size: 1.2rem;
+    color: grey;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer3 h5{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 1.2rem;
+    color: grey;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer3 h6:hover{
+   color: white;
+}
+.footer3 h5:hover{
+    
+   color: white;
+    
+}
+.footer4 h5{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 1.8rem;
+    color: white;
+}
+.footer4 i{
+    margin-left: 30px;
+    margin-top: 30px;
+  font-size: 1.5rem;
+  color: grey;
+  transition: 1s;
+  cursor: pointer;
+}
+.footer4 i:hover{
+    color: white;  
+ }
+
+
+ /* story page */
+
+ .main-story{
+     width: 100%;
+     height: 60vh;
+     /* background-color: aquamarine; */
+     display: flex;
+     justify-content: center;
+ }
+ .story1{
+     width: 50%;
+     height: 60vh;
+     background-color: #ddeeee;
+ }
+ .story2{
+    width: 50%;
+    height: 60vh;
+   background-image: url(./images/header/businesspeople-meeting-office-working.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.story1 h1{
+               margin-top: 130px;
+               margin-left: 60px;
+               font-size: 5.3rem;
+               color: rgb(22, 21, 21);
+}
+.main-team{
+     width: 100%;
+     height: 60vh;
+     background-color: #e1e2e2;
+     display: flex;
+     justify-content: space-evenly;
+     align-items:self-start;
+}
+.heading1 h1{
+    width: 100%;
+    padding-top:80px;
+    padding-left: 90px;
+    font-size: 3.7rem;
+    background-color:  #e1e2e2;
+    
+
+}
+.team1{
+     width: 25%;
+     height: 23vh;
+     background-color: rgb(255, 255, 255);
+     margin-top:130px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.team2{
+    width: 25%;
+    height: 23vh;
+    background-color: rgb(255, 255, 255);
+    margin-top:130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.team3{
+    width: 25%;
+    height: 23vh;
+    background-color: rgb(255, 255, 255);
+    margin-top:130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tt1{
+       width: 30%;
+       height: 15vh;
+       background-image: url(./images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg);
+       background-size: cover;
+       background-position: center;
+       margin-top: 30px;
+       margin-left: 5px;
+       border-radius: 100%;
+}
+.tt2{
+    width: 40%;
+    height: 15vh;
+   background-color: white;
+    margin-top: 30px;
+   
+}
+.tt3{
+    width: 30%;
+    height: 15vh;
+    background-image: url(./images/people/beautiful-woman-face-portrait-brown-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    margin-left: 5px;
+    border-radius: 100%;
+}
+.tt4{
+ width: 40%;
+ height: 15vh;
+ background-color: rgb(255, 255, 255);
+ margin-top: 30px;
+
+}
+.tt5{
+    width: 30%;
+    height: 15vh;
+    background-image: url(./images/people/portrait-british-woman.jpeg);
+    background-size: cover;
+    background-position: center;;
+    margin-top: 30px;
+    margin-left: 5px;
+    border-radius: 100%;
+}
+.tt6{
+ width: 40%;
+ height: 15vh;
+ background-color: rgb(255, 255, 255);
+ margin-top: 30px;
+
+}
+.tt2 h4{
+    font-size: 2rem;
+    margin-top: 35px;
+    /* margin-right: 20%; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tt2 h5{
+    font-size: 1.4rem;
+    color: grey;
+
+}
+.tt4 h4{
+    font-size: 2rem;
+    margin-top: 35px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.tt4 h5{
+    font-size: 1.2rem;
+    color: grey;
+
+}
+.tt6 h4{
+    font-size: 2rem;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tt6 h5{
+    font-size: 1.2rem;
+    color: grey;
+
+}
+/* custommer section */
+.main-customer{
+     width: 100%;
+     height: 90vh;
+     background-color: white;
+}
+.customer1{
+      width: 60%;
+      height: 20vh;
+      background-color:white;
+      margin-left: 20%;
+}
+.customer2{
+    width: 60%;
+    height: 50vh;
+    background-color: white;
+    margin-left: 20%;
+}
+
+.customer1 h2{
+     font-size: 5rem;
+     text-align: center;
+    padding-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.customer2 i {
+    font-size: 4rem;
+    margin-left: 60px;
+    padding-top: 40px;
+    color: orangered;
+}
+.customer2 p {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 2rem;
+     
+}
+.btn2{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* product page start */
+.main-fashion{
+    width: 100%;
+    height: 50vh;
+    background-color: #ddeeee;
+}
+.main-fashion h1{
+     margin-left: 50px;
+    padding-top: 120px;
+     font-size: 4.6rem;
+     
+}
+.arrival{
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+
+}
+.arrival h1{
+    padding-top: 90px;
+    margin-left: 40px;
+    font-size: 3.3rem;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.popular{
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+}
+.popular h1{
+    padding-top: 50px;
+    margin-left: 40px;
+    font-size: 3.3rem;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+
+
+.products{
+    width: 100%;
+    height: 70vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+ }
+ .product111{
+     width: 50%;
+     height: 60vh;
+     /* background-color: rgb(11, 170, 117); */
+     display: block;
+ }
+ .p8{
+        width: 80%;
+        height:50vh;
+        /* background-color: black; */
+       background-image: url(./images/product/team-fredi-8HRKoay8VJE-unsplash.jpeg);
+       background-position: center;
+      background-size: cover;
+        margin-left: 50px;
+       transition: 1s;
+ }
+
+ .p12{
+          width: 80%;
+          height: 10vh;
+          /* background-color: rgb(19, 141, 150); */
+        margin-left: 50px;
+
+ }
+ .product112{
+    width: 50%;
+    height: 60vh;
+    /* background-color: rgb(212, 182, 10); */
+    display: block;
+}
+.p9{
+    width: 80%;
+       height:50vh;
+       /* background-color: rgb(223, 53, 53); */
+      background-image: url(./images/product/quokkabottles-kFc1_G1GvKA-unsplash.jpeg);
+      background-position: center;
+      background-size: cover;
+       margin-left: 50px;
+       transition: 1s;
+}
+
+.p13{
+    width: 80%;
+
+         height: 10vh;
+         /* background-color: blueviolet; */
+       margin-left: 50px;
+
+}
+.product113{
+    width: 50%;
+    height: 60vh;
+    /* background-color: rgb(226, 33, 162); */
+    display: block;
+}
+.p10{
+    width: 80%;
+       height:50vh;
+       /* background-color: black; */
+      background-image: url(./images/product/anis-m-WnVrO-DvxcE-unsplash.jpeg);
+    overflow: auto;
+      background-position: center;
+      background-size: cover;
+       margin-left: 50px;
+       transition: 1s;
+}
+.p10:hover{
+    box-shadow: 0 5px 20px 0  #e1e2e2 inset,
+     5px 3px 40px 0  #e1e2e2,
+     5px 3px 40px 0  #e1e2e2 inset,
+     5px 3px 40px 0  #e1e2e2;
+}
+.p14{
+    width: 80%;
+
+         height: 10vh;
+         /* background-color: blueviolet; */
+       margin-left: 50px;
+
+}
+.but2{
+    margin-top: 30px;
+              margin-left: 5px;
+              background-color: white;
+              color: gray;
+              border: none;
+              outline: none;
+              padding-left: 5px;
+              padding-top: 3px;
+              padding-right: 5px;
+              padding-bottom: 3px;
+}
+.but1{
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: white;
+    color: gray;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+}
+.but3{
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: white;
+    color: gray;
+    border: none;
+    outline: none;
+}
+.p8 i {
+    margin-left: 70%;
+    border: none;
+    outline: none;
+    color: gray;
+}
+.p9 i {
+   margin-left: 70%;
+   border: none;
+   outline: none;
+   color: gray;
+}
+.p10 i {
+   margin-left: 70%;
+   border: none;
+   outline: none;
+   color: gray;
+}
+.p8 i:hover{
+    color: red;
+}
+.p9 i:hover{
+   color: red;
+}
+.p10 i:hover{
+ color: red;
+}
+.p12 h4{
+          padding-top: 10px;
+          font-size: 1.8rem;
+          margin-left: 15px;
+          transition: 1s;
+}
+.p12 h4:hover{
+ color: orangered;
+}
+.p12 h6{
+          margin-left: 90%;
+          font-size: 1rem;
+          color: gray;
+}
+.p12 p{
+   color: gray;
+}
+
+.p13 h4{
+   padding-top: 10px;
+   font-size: 1.8rem;
+   margin-left: 15px;
+   transition: 1s;
+}
+.p13 h4:hover{
+color: orangered;
+}
+.p13 h6{
+   margin-left: 90%;
+   font-size: 1rem;
+   color: gray;
+}
+.p13 p{
+color: gray;
+}
+
+.p14 h4{
+   padding-top: 10px;
+   font-size: 1.8rem;
+   margin-left: 15px;
+   transition: 1s;
+}
+.p14 h4:hover{
+color: orangered;
+}
+.p14 h6{
+   margin-left: 90%;
+   font-size: 1rem;
+   color: gray;
+}
+.p14 p{
+color: gray;
+}
+
+/* contact page */
+.main-contact{
+     width: 100%;
+     height: 65vh;
+     /* background-color: aquamarine; */
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+}
+.contact1{
+    width: 50%;
+    height: 65vh;
+    background-color:#ddeeee;
+}
+.contact2{
+    width: 50%;
+    height: 65vh;
+    /* background-color:#259999; */
+    background-image: url(./images/header/positive-european-woman-has-break-after-work.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contact1 h1{
+    margin-top:20%;
+    margin-left: 60px;
+    font-size: 4.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal
+}
+.main-form{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.form1{
+    width: 50%;
+    height: 80vh;
+    background-color: white;
+}
+.form1 h3{
+            margin-top: 90px;
+            margin-left: 30px;
+            font-size: 3rem;
+}
+input{
+     padding-left: 200px;
+     padding-bottom: 40px;
+     padding-right: 200px;
+     margin-left: 30px;
+     margin-top: 30px;
+     background: transparent;
+     border: solid #ddeeee 2px;
+     box-shadow: inset rgb(204, 204, 255);
+     border-radius: 5px;
+}
+
+textarea{
+    padding-left: 100px;
+    padding-bottom: 70px;
+    padding-right: 100px;
+    margin-left: 30px;
+    background: transparent;
+    border: solid #ddeeee 2px;
+    box-shadow: inset rgb(204, 204, 255);
+    border-radius: 5px;
+}
+.btn3{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn3:hover{
+     background-color: orangered;  
+ }
+.form2{
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+}
+.f1{
+    width: 40%;
+    height: 30vh;
+    background-color: white;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+   
+}
+.f1 h3{
+     margin-top: 90px;
+     margin-left: 40px;
+     font-size: 1.7rem;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f1 h5{
+        margin-top: 20px;
+        margin-left: 40px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 1.1rem;
+}
+.f2{
+    width: 40%;
+    height: 30vh;
+    background-color: white;
+    float: right;
+    margin-right: 127px;
+    margin-top: 50px;
+
+}
+.f2 h3{
+    margin-top: 90px;
+    margin-left: 40px;
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f2 h5{
+       margin-top: 20px;
+       margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1.1rem;
+}
+
+
+
+.f3{
+    width: 40%;
+    height: 30vh;
+    background-color: white;
+    float: left;
+    margin-left: 30px;
+
+}
+.f3 h3{
+    margin-top: 90px;
+    margin-left: 40px;
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f3 p{
+         margin-left: 30px;
+         margin-top: 30px;
+}
+
+.f4{
+    width: 40%;
+    height: 30vh;
+    background-color: white;
+    float: right;
+    margin-right: 127px;
+
+
+}
+.f4 h5{
+    margin-top: 90px;
+    margin-left: 40px;
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f4 i{
+    margin-left: 35px;
+    margin-top: 30px;
+  font-size: 1.5rem;
+  color: grey;
+  transition: 1s;
+  cursor: pointer;
+}
+.f4 i:hover{
+    color: orangered;  
+ }
+
+
+ /* tree page */
+  .p12  a{
+    text-decoration: none;
+    list-style: none;
+ }
+ .p13  a{
+    text-decoration: none;
+    list-style: none;
+ }
+ .p14  a{
+    text-decoration: none;
+    list-style: none;
+ }
+ .p12 h4:hover{
+         color: orangered;
+ }
+
+
+
+ .main-tree{
+ width: 100%;
+ height: 50vh;
+ background-color: #ddeeee;
+ }
+ .main-tree h1{
+       padding-top: 130px;
+       margin-left: 50px;
+       font-size: 4rem;
+       font-family: "SUSE", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: <weight>;
+       font-style: normal;
+     
+ }
+ .main-pack{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .pack1{
+    width: 40%;
+    height: 60vh;
+    background-color:white;
+    background-image: url(./images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+ }
+ .pack1:hover{
+    box-shadow: 0 5px 20px 0  #e1e2e2 inset,
+     5px 3px 40px 0  #e1e2e2,
+     5px 3px 40px 0  #e1e2e2 inset,
+     5px 3px 40px 0  #e1e2e2;
+}
+ .pack2{
+    width: 50%;
+    height: 70vh;
+    background-color:white;
+ }
+ .pack2 h1{
+     padding-top: 30px;
+     font-size: 3rem;
+     margin-left: 30px;
+ }
+ .pack2 p{
+     margin-top: 5px;
+     color: gray;
+     margin-left: 30px;
+
+ }
+ .pack2 h5{
+     font-weight: bolder;
+     font-size: 1rem;
+     margin-left: 30px;
+
+ }
+ .sheikh{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    color: gray;
+ }
+ select{
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    margin-left: 30px;
+
+ }
+ .bt1{
+     margin-left: 100px;
+     padding-left: 90px;
+    padding-top: 20px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    transition: 1s;
+ }
+ .bt1:hover{
+    background-color: orangered;
+ }
+ .pack2 h6{
+    margin-left: 30px;
+     font-size: 1rem;
+     color: gray;
+     transition: 1s;
+ }
+
+ .pack2 h6:hover{
+    color: orangered;
+ }
+ .might{
+    margin-left: 30px;
+    font-size: 1.3rem;
+ }
+
+
+
+ 
